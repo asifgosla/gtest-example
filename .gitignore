@@ -1,0 +1,35 @@
+# Bazel directories
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-*
+
+# Build output
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.dylib
+*.class
+
+# Bazel-specific files
+*.runfiles/
+*.gen/
+*.lock
+MODULE.bazel.lock
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Other common files to ignore
+*.tmp
+*.temp
